@@ -94,7 +94,7 @@ def main():
         result = oauth2.authorize_button(
             name="Continue with Google",
             icon="https://www.google.com.hk/favicon.ico",
-            redirect_uri="https://cn-ops-asia-cloudscada.uc.r.appspot.com/",
+            redirect_uri="https://appapp-sha2u6fxqylb4fosfflbrp.streamlit.app/",
             scope="openid email profile",
             key="google",
             extras_params={"prompt": "consent", "access_type": "offline"},
